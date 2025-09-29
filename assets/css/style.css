@@ -1,8 +1,22 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
+
+/* CSS Variables */
+:root {
+    --primary-font: "Inter", sans-serif;
+    --secondary-font: "Macondo", cursive;
+    --primary-color: #3a2620; /* dark brown */
+    --secondary-color: #aa9581; /* light brown */
+    --highlight-color: #416a8e; /* blue */
+    --highlight-color-light: #7a9fc2; /* light blue */
+}
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 
 /* General styles */
@@ -11,9 +25,13 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
+    font-family: 'Lato', sans-serif;
     color: #3a3a3a;
 }
 
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
 
 /* Header */
 header {
