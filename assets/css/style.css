@@ -51,6 +51,19 @@ header a{
     color:inherit;
 }
 
+#menu {
+    font-size:110%;
+    letter-spacing:2px;
+    list-style-type:none;
+}
+
+#menu > li{
+    margin-bottom:1em;
+}
+
+.active{
+    border-bottom: 1px solid #a3a3a3;
+}
 /* Main content */
 main {
     background-color: lightblue;
