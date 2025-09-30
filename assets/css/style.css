@@ -26,14 +26,31 @@ body {
     flex-direction: column;
     /* Generic project styles */
     font-family: 'Lato', sans-serif;
-    color: #3a3a3a;
+    color:var(--primary-color);
+}
+
+/*.container{
+    flex:1;
+}*/
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 h1 {
     font-family: 'Oswald', sans-serif;
     text-transform:uppercase;
     letter-spacing: 2px;
-    color:#252525
+    color:506D1B;
+}
+
+
+
+
+
+
+h6{
+    color:red;
 }
 
 /* Header */
@@ -53,6 +70,22 @@ header a{
     text-decoration:none;
     color:inherit;
 }
+/*
+.section {
+    margin-top: 4rem;
+  /*  margin-bottom: 2rem; top wwas 2*}*/
+
+/* grid visualisation CSS for testing */
+/*
+.container,
+
+ {
+    border: 2px solid black;
+    position:center;
+
+}
+
+*/
 
 #menu {
     font-size:110%;
@@ -94,15 +127,54 @@ nav{
 
 /* Main content */
 main {
-    background-color: lightblue;
+    background-color: #E9D98A;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top:47px;
 }
 
+#F-banner{
+    text-align:center;
+    background-color:#ffffff;
+    color:var(--primary-color);
+    font-size: larger;
+}
+
+
+
+
+/* Reasons section */
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+#benefits-ecosystem > div,
+#benefits-pets-human > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
 /* Footer */
 footer {
-    background-color: orange;
+    background-color: #ffffff;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+   /* flex-wrap:wrap;*/
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -139,6 +211,9 @@ footer {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
+
+    
+    
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
