@@ -168,6 +168,24 @@ main {
     margin: 5px 0;
 }
 
+#circle-cover-bg{
+    background: url(../images/winters/Winters-back.jpg);
+    height:90vw;
+    width:90vw;
+    margin-bottom:20px;
+    border-radius:50%;
+
+    /* For bigger phones */
+    max-width:300px;
+    max-height:400px;  
+}
+
+#benefits-image{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
 /* Footer */
 footer {
     background-color: #ffffff;
