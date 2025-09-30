@@ -174,6 +174,7 @@ main {
     width:90vw;
     margin-bottom:20px;
     border-radius:50%;
+  /* move right */
 
     /* For bigger phones */
     max-width:300px;
@@ -230,7 +231,21 @@ footer {
         margin-top: 79px;
     }
 
-    
+      /* Reasons section */
+    #benefits-ecosystem,
+    #benefits-pets-humans {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #benefits-ecosystem>div,
+    #benefits-pets-humans>div {
+        width: 75%;
+    }
+
+    #benefits-pets-humans>div {
+        text-align: end;
+        align-self: flex-end
     
 }
 
@@ -238,5 +253,33 @@ footer {
 @media screen and (min-width: 992px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
+    }
+}
+
+@media screen and (min-width: 1200px) {    
+    /* Reasons section */
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits > div {
+        flex: 1;
+    }
+
+    #benefits-image {
+        order: 0
+    }
+
+    #benefits-pets-humans {
+        order: 1;
+    }
+
+    #benefits-pets-humans > div {
+        align-self: flex-start;
+    }
+
+    #benefits-ecosystem > div {
+        align-self: flex-end;
     }
 }
