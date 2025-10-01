@@ -37,20 +37,20 @@ Aerating lawns      ">
     <header>
         <a href="index.html">
             <h1 id="logo"> Harmonia </h1>
-            <!--<h6> Maintain beautiful outdoor spaces</h6>-->
+        <!--<h6> Maintain beautiful outdoor spaces</h6>-->    
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label">X</label>
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="index.html" class="active" aria-current="page">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="services.html">Services</a>
+                    <a href="services.html" >Services</a>
                 </li>
                 <li>
-                    <a href="request.html">Request</a>
+                    <a href="request.html" class="active" aria-current="page">Request</a>
                 </li>
                 <li>
                     <a href="#contacts">Contact</a>
@@ -61,95 +61,67 @@ Aerating lawns      ">
     </header>
 
     <!-- Main content -->
-    <main>
-
-        <div id="carouselExample" class="carousel slide carousel-fade custom-carousel" data-bs-ride="carousel"
-            data-bs-interval="6000">
-            <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="assets/images/winters/Winters-back.jpg"  class="d-block w-100"
-                            alt="Back garden image in co. cork">
+    <main> <main>
+        <div class="col-lg-4">
+                        <label for="phonenumber" class="form-label">Phone number</label>
+                        <input type="number" class="form-control" id="phonenumber">
                     </div>
-                    <div class="carousel-item">
-                        <img src="assets/images/winters/winters-2.jpg" class="d-block w-100"
-                            alt="Back garden image number 2 in co. cork">
+                    <div class="col-lg-4">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email">
                     </div>
-                    <div class="carousel-item">
-                        <img src="assets/images/winters/winters-3.jpg" class="d-block w-100"
-                            alt="Back garden image number 3 in co. cork">
+                    <div class="col-12">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
                     </div>
-                    <div class="carousel-item">
-                        <img src="assets/images/winters/winters-4.jpg" class="d-block w-100"
-                            alt="Back garden image number 4 in co. cork">
+                    <div class="col-12">
+                        <button type="submit" class="contact-button">Send</button>
                     </div>
-                    <div class="carousel-item">
-                        <img src="assets/images/winters/winters-5.jpg" class="d-block carousel-image"
-                            alt="Back garden image number 5 in co. cork">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="assets/images/winters/winters-6.jpg" class="d-block w-100"
-                            alt="Back garden image number 6 in co. cork">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                </form>
             </div>
-        
-        <section id="reasons">
-            <h2>Maintain beautiful outdoor spaces </h2>
-            <div id="benefits">
-                <div id="benefits-ecosystem">
-                    <div>
-                        <h3> Ecosystem Balance <i class="fa-solid fa-heart-pulse"></i></h3>
-                        <hr>
-                        <p>Pollinators help fertilize plants, which in turn stabilize soil, <br> reduce erosion, and
-                            support biodiversity — a beautiful cycle <br>of mutual benefit.It supports beneficial
-                            microbes,<br> insects, and fungi that keep ecosystems thriving.</p>
-                    </div>
-                    <div>
-                        <h3> More Sustainability & Resilience <i class="fa-solid fa-seedling"></i></h3>
-                        <hr>
-                        <p>Healthy plants are less prone to pests and diseases.<br>
-                            Rich soil retains moisture better and buffers against drought or heavy rain.</p>
-                    </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Subscribe</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div id="benefits-pets-humans">
-                    <div>
-                        <h3>Safer for children and pets<i class="fa-solid fa-paw"></i></h3>
-                        <hr>
-                        <p>Physical exercise, running included, is known to release endorphins <br>in the brain.
-                            Endorphins
-                            make you more energetic, more awake and, yes, happier.</p>
-                    </div>
-                    <div>
-                        <h3> Cleaner Water <i class="fas fa-water"></i></h3>
-                        <hr>
-                        <p>Healthy soils filter and retain water, reducing runoff and pollution.<br>
-                            They help prevent harmful chemicals and sediments from entering rivers, lakes,<br> and
-                            drinking water sources.</p>
-                    </div>
-                </div>
-                <div id="benefits-image">
-                    <div id="circle-cover-bg"></div>
+                <div class="modal-body">
+                    <p>
+                        Join my newsletter for the latest updates on my projects,
+                        coding tips, and industry insights delivered straight to your
+                        inbox.
+                    </p>
+                    <form class="row g-3">
+                        <div class="col-lg-6">
+                            <label for="inputName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="inputName">
+                        </div>
+                        <div class="col-lg-6">
+                            <label for="inputEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail">
+                        </div>
+                        <div class="col-12 mb-4">
+                            <button type="submit" class="btn btn-primary">
+                                Sign up!
+                            </button>
+                        </div>
+                    </form>
                 </div>
             </div>
-        </section>
-
-    </main>
+        </div>
+    </div>
+</main>
 
     <!-- Footer -->
 
     <!-- mt-auto to push footer to the bottom of the page -->
     <div id="contacts">
-        <button class="contact-button">Request a quote</button>
         <!-- Footer -->
         <footer class="mt-auto">
 
@@ -192,14 +164,15 @@ Aerating lawns      ">
             </div>
     </div>
 
-
     </footer>
 
     <!--Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+                       
 
-    <!-- Font Awesome kit -->
-    <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>
+
+        <!-- Font Awesome kit -->
+        <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>
 
 
 </body>
