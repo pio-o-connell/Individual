@@ -411,4 +411,13 @@ footer {
     transform: translateY(-1px);
     box-shadow: 0 2px 4px rgba(58, 38, 32, 0.2);
 }
+
+/* Form Container */
+.form-container {
+    margin-top: 3rem;
+    padding: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
     
