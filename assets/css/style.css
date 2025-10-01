@@ -168,12 +168,24 @@ main {
     margin: 5px 0;
 }
 
+
+
+#benefits-image{
+    display:flex;
+/*    position:relative;*/
+    align-items:center;
+    justify-content:center;
+
+}
+
 #circle-cover-bg{
     background: url(../images/winters/Winters-back.jpg);
     height:90vw;
     width:90vw;
     margin-bottom:20px;
     border-radius:50%;
+  /* position:absolute;*/
+   
   /* move right */
 
     /* For bigger phones */
@@ -181,18 +193,13 @@ main {
     max-height:400px;  
 }
 
-#benefits-image{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-}
-
 /* Footer */
 footer {
     background-color: #ffffff;
     display:flex;
     flex-direction: row;
-    justify-content:space-around;
+  /*  justify-content:space-around;*/
+     justify-content:space-evenly;
    /* flex-wrap:wrap;*/
 }
 
