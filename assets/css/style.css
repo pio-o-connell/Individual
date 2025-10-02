@@ -7,7 +7,7 @@
     --secondary-font: "Macondo", cursive;
     --primary-color: #3a2620;
     /* dark brown */
-    --secondary-color: #aa9581;
+    --secondary-color: #506D1B;
     /* light brown */
    --highlight-color: #416a8e;
 
@@ -206,7 +206,7 @@ main {
 }
 
 #circle-cover-bg {
-    background: url(../images/winters/Winters-back.jpg);
+    background: url(../images/winters/winters-5.jpg);
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -432,7 +432,7 @@ footer {
     font-size: 110%;
     letter-spacing: 2px;
     font-family: 'Lato', sans-serif;
-    color: inherit;
+    color: var(--secondary-color);
     text-align: left;
     margin-bottom: 2rem;
     font-weight: 500;
@@ -455,6 +455,16 @@ footer {
 /* Remove underline from request button link */
 #Request {
     text-decoration: none;
+}
+
+/* Change navbar CTA text color to secondary color */
+.CTA {
+    color: var(--secondary-color);
+}
+
+/* Change call button border to secondary color */
+#call {
+    border-color: var(--secondary-color);
 }
 
 /* Mobile Media Query - Footer Reordering */
