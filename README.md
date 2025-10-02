@@ -101,4 +101,44 @@ Other colours taken from the image suggested include -
 <hr>
 <p align="right"><a href="#harmonia">Back To Top</a></p>
 
+## Fonts
 
+Similar to colour, the font should be easy to read. Three different fonts were needed; titles, body, and quotes. These were implemnted through [Google Fonts](https://fonts.google.com) using a direct import code within the style.css file.
+
+
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
+
+[Inter](https://fonts.google.com/specimen/Inter) was used everywhere.
+
+<hr>
+<p align="right"><a href="#harmonia">Back To Top</a></p>
+
+
+### Wireframes
+
+ 
+
+**Mobile Wireframe**
+
+![Mobile Wireframe](/documentation/images/wireframe-mobile.png)
+
+**Tablet Wireframe**
+
+![Tablet Wireframe](/documentation/images/wireframe-tablet.png)
+
+**Desktop Wireframes**
+
+![Desktop Wireframe 1](/documentation/images/wireframe-web.png)
+
+
+
+
+
+
+
+
+
+
+<hr>
+<p align="right"><a href="#harmonia">Back To Top</a></p>
