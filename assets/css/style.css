@@ -446,6 +446,17 @@ footer {
     object-position: center;
 }
 
+/* Remove underline from services button link */
+#servicesbutton a {
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* Remove underline from request button link */
+#Request {
+    text-decoration: none;
+}
+
 /* Mobile Media Query - Footer Reordering */
 @media screen and (max-width: 768px) {
     #details {
