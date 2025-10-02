@@ -420,4 +420,32 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Mobile Media Query - Footer Reordering */
+@media screen and (max-width: 768px) {
+    #details {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #one {
+        order: 2;
+    }
+    
+    #two {
+        order: 1;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #two .social-links {
+        justify-content: center;
+    }
+    
+    #three {
+        order: 3;
+    }
+}
     
