@@ -27,6 +27,14 @@ The live project can be found here: <a href="https://pio-o-connell.github.io/Ind
       - [Navigation and Carousel Section](#navigation-and-carousel-section)
       - [Bootstrap Cards](#bootstrap-cards)
       - [Footer](#footer)
+      - [Links and Buttons](#links-and-buttons)
+      - [Future development](#future-development)
+    - [Responsive Design](#responsive-design)
+  - [Built With](#built-with)
+    - [Technologies and Languages](#technologies-and-languages)
+    - [Libraries and Frameworks](#libraries-and-frameworks)
+    - [Tools and Programs](#tools-and-programs)
+  - [Deployment](#deployment)
 
 <p align="right"><a href="#harmonia">Back To Top</a></p>
 
@@ -143,7 +151,7 @@ For the background images on cards I simply use youtube frampicker option. It ne
 
 #### Navigation and Carousel Section
 
-I decided to use images of a garden I maintain for an elderly neighbour to convey my message about beautiful open spaces. This section features a  CTA button that then opens to maintenance services available.
+I decided to use images of a garden I maintain  to convey my message about beautiful open spaces. This section features a  CTA button that then opens to maintenance services available.
 
 The navigation bar is a Bootstrap component that allows for easy navigation around the site using a familiar method for a positive user experience.
 
@@ -166,8 +174,74 @@ For the footer I used bootstrap utilities so that it sticks to the bottom of the
 <p align="right"><a href="#harmonia">Back To Top</a></p>
 
 
+#### Links and Buttons
+
+Buttons were customised to their specific role and page layout. This is so that they stand out from their backgrounds and provide uniform function based on design. This was implemnted by customising the btn-primary and btn-secondary bootsrap classes.
+
+#### Future development
+
+With more time I would create the additional resources page and link it to the appropriate buttons. This page would go into more details about how to manage stress, with embeded videos to provide user interaction.
+
+<hr>
+<p align="right"><a href="#harmonia">Back To Top</a></p>
+
+### Responsive Design
+
+This project was made responsive by utilising bootstrap's grid system as well as a couplemedia queeries.
+
+![Responsive Design](/documentation/images/responsive.png)
+
+<hr>
+<p align="right"><a href="#harmonia">Back To Top</a></p>
 
 
+## Built With
+
+### Technologies and Languages
+
+- HTML5
+- CSS3
+- GitHub
+  
+
+### Libraries and Frameworks
+
+- Bootstrap 5.3.3
+- Font Awesome
+- Google Fonts
+
+### Tools and Programs
+
+- Balsamiq
+- ChatGPT
+- MS CoPilot
+- GitHub CoPilot
+
+
+<hr>
+<p align="right"><a href="#harmonia">Back To Top</a></p>
+
+## Deployment
+
+This [GitHub](https://github.com/) project was created using the [Code Institute Template](https://github.com/Code-Institute-Org/ci-full-template) ensuring all necessary dependencies were included when opening within the designated workspace on the [Gitopod IDE](https://www.gitpod.io/).
+
+Setup a repo using this method and template:
+1. Login to your GitHub profile.
+2. Navigate to the Code Institute Full Template
+3. Click the dropdown for 'Use this template' and select "Create a new repository"
+4. Generate the necessary name and description for your repo and click 'Create repository from template'
+5. Navigate to the new repo and click the green 'Open' button with the Gitpod logo<br>
+**IMPORTANT - This button should only be clicked once to generate the new IDE workspace**
+6. You can now work on your repository within the Code Institute Gitpod IDE workspace
+
+Once the project repo is created, an early deployment for the live project should performed.<br>
+This allows for early and continuous testing using a variety of devices, as well as the Dev Tools available within browsers.
+
+Additional information on the deployment process can be found on the official [GitHub Docs](https://docs.github.com/en/pages/quickstart)
+
+
+<hr>
+<p align="right"><a href="#harmonia">Back To Top</a></p>
 
 
 
