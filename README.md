@@ -61,7 +61,7 @@ The site owner wants to create a welcoming webpage that provides infomation on e
 <p align="right"><a href="#harmonia">Back To Top</a></p>
 
 ## Colors
-There is a lot of colours in a garden already so I used a simple background #E9D98A , one colour for all text #4D4D4D and the use of whitespace where appropiate. I used image picker website to choose a colour scheme  https://imagecolorpicker.com/
+There is a lot of colours in a garden already so I used a simple background #E9D98A , one colour for all text    --primary-color: #3a2620;  a CTA of    --secondary-color: #506D1B; and the use of whitespace where appropiate. I used image picker website to choose a colour scheme  https://imagecolorpicker.com/
 
 The image is 
 ![alt text](image.png)
@@ -78,7 +78,7 @@ Other colours taken from the image suggested include -
 - Header and footer: '#4D4D4D';
 - Background: '#E9D98A'
 - Primary button: '#4D4D4D'
-- Secondary button: '#4D4D4D'
+- Secondary button: '#506D1B;
 - Links: '#4D4D4D'
 
 ![Color Palette](/assets/images/SWATCH.jpg)
