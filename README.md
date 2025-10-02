@@ -25,6 +25,8 @@ The live project can be found here: <a href="https://pio-o-connell.github.io/Ind
   - [Features](#features)
     - [General Features](#general-features)
       - [Navigation and Carousel Section](#navigation-and-carousel-section)
+      - [Bootstrap Cards](#bootstrap-cards)
+      - [Footer](#footer)
 
 <p align="right"><a href="#harmonia">Back To Top</a></p>
 
@@ -146,6 +148,26 @@ I decided to use images of a garden I maintain for an elderly neighbour to conve
 The navigation bar is a Bootstrap component that allows for easy navigation around the site using a familiar method for a positive user experience.
 
 ![Header](/assets/documentation/images/NavCarousel/navigateCarousel.jpg)
+
+#### Bootstrap Cards
+
+Bootstrap cards were used for the services section, to layout quick actionable tips. Each card has a linkto extra resources.
+
+![Bootstrap Cards](assets/documentation/images/Bootstrap%20cards/bootstrapcards.jpg )
+
+#### Footer
+
+For the footer I used bootstrap utilities so that it sticks to the bottom of the page. The footer includes contact information as well as links to social media platforms and the privacy agreement.
+
+![Footer](assets/documentation/images/Footer/footer.jpg)
+
+
+<hr>
+<p align="right"><a href="#harmonia">Back To Top</a></p>
+
+
+
+
 
 
 
