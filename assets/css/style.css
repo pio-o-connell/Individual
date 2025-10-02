@@ -426,6 +426,25 @@ footer {
     margin-right: auto;
 }
 
+/* Form Header - Match navbar styling */
+#please {
+    font-size: 110%;
+    letter-spacing: 2px;
+    font-family: 'Lato', sans-serif;
+    color: inherit;
+    text-align: left;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
+/* Card Images - Uniform Dimensions */
+#services .card-img-top {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
 /* Mobile Media Query - Footer Reordering */
 @media screen and (max-width: 768px) {
     #details {
