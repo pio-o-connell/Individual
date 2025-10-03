@@ -35,6 +35,12 @@ The live project can be found here: <a href="https://pio-o-connell.github.io/Ind
     - [Libraries and Frameworks](#libraries-and-frameworks)
     - [Tools and Programs](#tools-and-programs)
   - [Deployment](#deployment)
+  - [Testing](#testing)
+    - [Validation](#validation)
+      - [CSS](#css)
+      - [HTML](#html)
+    - [Lighthouse](#lighthouse)
+    - [Media](#media)
 
 <p align="right"><a href="#harmonia">Back To Top</a></p>
 
@@ -71,7 +77,7 @@ The site owner wants to create a welcoming webpage that provides infomation on e
 <p align="right"><a href="#harmonia">Back To Top</a></p>
 
 ## Colors
-There is a lot of colours in a garden already so I used a simple background #E9D98A , one colour for all text    --primary-color: #3a2620;  a CTA of    --secondary-color: #506D1B; and the use of whitespace where appropiate. I used image picker website to choose a colour scheme  https://imagecolorpicker.com/
+There is a lot of colours in a garden already so I used a simple background #E9D98A , one colour for all text    --primary-color: #3a2620;  a CTA of    --secondary-color: #506D1B ; and the use of whitespace where appropiate. I used image picker website to choose a colour scheme  https://imagecolorpicker.com/
 
 The image is 
 ![alt text](image.png)
@@ -117,19 +123,21 @@ Similar to colour, the font should be easy to read. Three different fonts were n
 
 **Mobile Wireframe**
 
-![Mobile Wireframe](/documentation/images/wireframe-mobile.png)
+![Mobile Wireframe](/assets/documentation/images/balsamic/mobile-screenshot.jpg)
+
 
 **Tablet Wireframe**
 
-![Tablet Wireframe](/assets/documentation/images/Main-page-laptop.jpg)
-![Tablet Wireframe](/assets/documentation/images/servicespage.jpg)
-![Tablet Wireframe](/assets/documentation/images/form.jpg)
+![Tablet Wireframe](/assets/documentation/images/balsamic/xllaptophome.jpg)
+![Tablet Wireframe](/assets/documentation/images/balsamic/laptop-services.jpg)
+
+![Tablet Wireframe](/assets/documentation/images/balsamic/laptopxlrequest.jpg)
 
 **Desktop Wireframes**
 
-![Tablet Wireframe](/assets/documentation/images/Main-page-laptop.jpg)
-![Tablet Wireframe](/assets/documentation/images/servicespage.jpg)
-![Tablet Wireframe](/assets/documentation/images/form.jpg)
+![Tablet Wireframe](/assets/documentation/images/balsamic/xllaptophome.jpg)
+![Tablet Wireframe](/assets/documentation/images/balsamic/XL-services.jpg)
+![Tablet Wireframe](/assets/documentation/images/balsamic/laptopxlrequest.jpg)
 
 
 <hr>
@@ -243,7 +251,51 @@ Additional information on the deployment process can be found on the official [G
 <hr>
 <p align="right"><a href="#harmonia">Back To Top</a></p>
 
+## Testing
 
+### Validation
+
+#### CSS
+
+1 errors found.  warnings arisen using webkit
+
+![CSS Validation](assets/documentation/images/testing/homepage-csstest.jpg)
+
+#### HTML
+
+9 errors found on home page.
+
+![HTML Validation](assets/documentation/images/testing/html-home.jpg)
+
+20 errors on services page
+![HTML Validation](assets/documentation/images/testing/services-html.jpg)
+
+10 errors on request
+![HTML Validation](assets/documentation/images/testing/services-html.jpg)
+
+
+### Lighthouse
+
+A Lighthouse audit was conducted using the tool on Chrome Devtools of each web page.
+
+Home page:
+
+![Home Page](/assets/documentation/images/testing/lighthouse-home.jpg)
+
+Services: b
+![Home Page](/assets/documentation/images/testing/lighthouse-services.jpg)
+
+Request: 
+![Home Page](/assets/documentation/images/testing/lighthouse-request.jpg)
 
 <hr>
 <p align="right"><a href="#harmonia">Back To Top</a></p>
+
+### Media
+
+All photos aquired from [Unsplash](https://unsplash.com/).
+Hero image and favicon made by Microsoft Copilot.
+
+<hr>
+<p align="right"><a href="#harmonia">Back To Top</a></p>
+
