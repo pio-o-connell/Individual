@@ -35,6 +35,12 @@ The live project can be found here: <a href="https://pio-o-connell.github.io/Ind
     - [Libraries and Frameworks](#libraries-and-frameworks)
     - [Tools and Programs](#tools-and-programs)
   - [Deployment](#deployment)
+  - [Testing](#testing)
+    - [Validation](#validation)
+      - [CSS](#css)
+      - [HTML](#html)
+    - [Lighthouse](#lighthouse)
+    - [Media](#media)
 
 <p align="right"><a href="#harmonia">Back To Top</a></p>
 
@@ -60,18 +66,28 @@ The site owner wants to create a welcoming webpage that provides infomation on e
 ### UX Design
 
 ### User Stories 
-
-
-
-
-
+- I am the site owner who wants to  highlight the need for everybody to create a more sustainable environment 
+- I want the home page especially to have a welcoming carousel section with positive images of a thriving garden so that users feel encouraged to learn more about ecofriendly centric garden behaviours and practies.
+- I  want to draw attention to common garden jobs and  their frequency to achieve the goal of a healthy maintainable garden.
+- I also want to offer services that are available in THEIR local area.
+- I am a user interested in learning about gardening . I want clear, concise information presented in a structured way so that I can understand the basics.
+- I am a user seeking professional advice
+- I am a user that maintains my own garden although I need help from time to time
+- I am a user that feel its unnessary to buy all the equipment, easier to hire gardener once a year
+- I am user that would like to work at gardening 
+- I am a site owner aiming for a responsive design. I want the page to adjust seamlessly on any screen size so that users on different devices can access the content without issues.
+- I am a visitor seeking professional gardening information. I want a simple layout so that I can easily find the information without feeling overwhelmed.
+- I am a user interested in useeing results and I want to  feel encouraged and motivated to take affirmative action while browsing the site.
+- I am a person who may need additional resources for gardening support. I want a list of reputable links to gardening organizations so that I can access further information and support if needed.
+- As a teacher seeking to support my students, I want educational materials or activities that I can use in my classroom so that I can promote gardening among students.
+- As a user interested in mental health events, I want a calendar or list of upcoming webinars and workshops so that I can participate in live learning opportunities.
 
 
 <hr>
 <p align="right"><a href="#harmonia">Back To Top</a></p>
 
 ## Colors
-There is a lot of colours in a garden already so I used a simple background #E9D98A , one colour for all text    --primary-color: #3a2620;  a CTA of    --secondary-color: #506D1B; and the use of whitespace where appropiate. I used image picker website to choose a colour scheme  https://imagecolorpicker.com/
+There is a lot of colours in a garden already so I used a simple background #E9D98A , one colour for all text    --primary-color: #3a2620;  a CTA of    --secondary-color: #506D1B ; and the use of whitespace where appropiate. I used image picker website to choose a colour scheme  https://imagecolorpicker.com/
 
 The image is 
 ![alt text](image.png)
@@ -117,19 +133,21 @@ Similar to colour, the font should be easy to read. Three different fonts were n
 
 **Mobile Wireframe**
 
-![Mobile Wireframe](/documentation/images/wireframe-mobile.png)
+![Mobile Wireframe](/assets/documentation/images/balsamic/mobile-screenshot.jpg)
+
 
 **Tablet Wireframe**
 
-![Tablet Wireframe](/assets/documentation/images/Main-page-laptop.jpg)
-![Tablet Wireframe](/assets/documentation/images/servicespage.jpg)
-![Tablet Wireframe](/assets/documentation/images/form.jpg)
+![Tablet Wireframe](/assets/documentation/images/balsamic/xllaptophome.jpg)
+![Tablet Wireframe](/assets/documentation/images/balsamic/laptop-services.jpg)
+
+![Tablet Wireframe](/assets/documentation/images/balsamic/laptopxlrequest.jpg)
 
 **Desktop Wireframes**
 
-![Tablet Wireframe](/assets/documentation/images/Main-page-laptop.jpg)
-![Tablet Wireframe](/assets/documentation/images/servicespage.jpg)
-![Tablet Wireframe](/assets/documentation/images/form.jpg)
+![Tablet Wireframe](/assets/documentation/images/balsamic/xllaptophome.jpg)
+![Tablet Wireframe](/assets/documentation/images/balsamic/XL-services.jpg)
+![Tablet Wireframe](/assets/documentation/images/balsamic/laptopxlrequest.jpg)
 
 
 <hr>
@@ -243,7 +261,51 @@ Additional information on the deployment process can be found on the official [G
 <hr>
 <p align="right"><a href="#harmonia">Back To Top</a></p>
 
+## Testing
 
+### Validation
+
+#### CSS
+
+1 errors found.  warnings arisen using webkit
+
+![CSS Validation](assets/documentation/images/testing/homepage-csstest.jpg)
+
+#### HTML
+
+9 errors found on home page.
+
+![HTML Validation](assets/documentation/images/testing/html-home.jpg)
+
+20 errors on services page
+![HTML Validation](assets/documentation/images/testing/services-html.jpg)
+
+10 errors on request
+![HTML Validation](assets/documentation/images/testing/services-html.jpg)
+
+
+### Lighthouse
+
+A Lighthouse audit was conducted using the tool on Chrome Devtools of each web page.
+
+Home page:
+
+![Home Page](/assets/documentation/images/testing/lighthouse-home.jpg)
+
+Services: b
+![Home Page](/assets/documentation/images/testing/lighthouse-services.jpg)
+
+Request: 
+![Home Page](/assets/documentation/images/testing/lighthouse-request.jpg)
 
 <hr>
 <p align="right"><a href="#harmonia">Back To Top</a></p>
+
+### Media
+
+All photos aquired from [iStockPhoto](https://www.istockphoto.com/).
+Hero icarousel image personal and favicon made by Microsoft Copilot.
+
+<hr>
+<p align="right"><a href="#harmonia">Back To Top</a></p>
+
