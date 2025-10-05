@@ -47,10 +47,10 @@ The live project can be found here: <a href="https://pio-o-connell.github.io/Ind
 ## Project Outline
 
 ### External User’s Goal: 
-The user seeks accessible, beginner-friendly information on the benefits of eco-friendly gardening practices and behaviours . 
+The user seeks accessible, beginner-friendly information on the benefits of eco-friendly gardening practices and behaviours. 
 
 ### Site Owner’s Goal: 
-The site owner wants to create a welcoming webpage that provides infomation on ecofriendly gardening using a clean and supportive design. The focus is on using HTML and CSS with Bootstrap to create a calming and well-organised user experience.
+The site owner wants to create a welcoming webpage that provides infomation on eco-friendly gardening using a clean and supportive design. The focus is on using HTML and CSS with Bootstrap to create a calming and well-organised user experience.
 
 
 ### Key Objectives
@@ -72,12 +72,12 @@ The site owner wants to create a welcoming webpage that provides infomation on e
 - I also want to offer services that are available in THEIR local area.
 - I am a user interested in learning about gardening . I want clear, concise information presented in a structured way so that I can understand the basics.
 - I am a user seeking professional advice
-- I am a user that maintains my own garden although I need help from time to time
-- I am a user that feel its unnessary to buy all the equipment, easier to hire gardener once a year
+- I am a user that maintains my own garden although I do need help from time to time
+- I am a user that feel its unnessary to buy all the equipment, easier to hire gardener once a year for a particulat job
 - I am user that would like to work at gardening 
 - I am a site owner aiming for a responsive design. I want the page to adjust seamlessly on any screen size so that users on different devices can access the content without issues.
 - I am a visitor seeking professional gardening information. I want a simple layout so that I can easily find the information without feeling overwhelmed.
-- I am a user interested in useeing results and I want to  feel encouraged and motivated to take affirmative action while browsing the site.
+- I am a user interested in seeing results and I want to  feel encouraged and motivated to take affirmative action while browsing the site.
 - I am a person who may need additional resources for gardening support. I want a list of reputable links to gardening organizations so that I can access further information and support if needed.
 - As a teacher seeking to support my students, I want educational materials or activities that I can use in my classroom so that I can promote gardening among students.
 - As a user interested in mental health events, I want a calendar or list of upcoming webinars and workshops so that I can participate in live learning opportunities.
@@ -87,10 +87,13 @@ The site owner wants to create a welcoming webpage that provides infomation on e
 <p align="right"><a href="#harmonia">Back To Top</a></p>
 
 ## Colors
-There is a lot of colours in a garden already so I used a simple background #E9D98A , one colour for all text    --primary-color: #3a2620;  a CTA of    --secondary-color: #506D1B ; and the use of whitespace where appropiate. I used image picker website to choose a colour scheme  https://imagecolorpicker.com/
+There are a lot of colours in a garden already so I used a simple background #E9D98A , one colour for all text    --primary-color: #3a2620;  a CTA of    --secondary-color: #506D1B ; and the use of whitespace where appropiate. I used image picker website to choose a colour scheme  https://imagecolorpicker.com/
 
 The image is 
 ![alt text](image.png)
+
+A colour swatch using < https://coolors.co/e9d98a-506d1b-c9b66b-e6e2d2-4d4d4d > suggests the following palette  -
+![Color Palette](/assets/images/SWATCH.jpg).
 
 Other colours taken from the image suggested include -
 
@@ -107,7 +110,7 @@ Other colours taken from the image suggested include -
 - Secondary button: '#506D1B;
 - Links: '#4D4D4D'
 
-![Color Palette](/assets/images/SWATCH.jpg)
+
 
 
 <hr>
@@ -115,7 +118,7 @@ Other colours taken from the image suggested include -
 
 ## Fonts
 
-Similar to colour, the font should be easy to read. Three different fonts were needed; titles, body, and quotes. These were implemnted through [Google Fonts](https://fonts.google.com) using a direct import code within the style.css file.
+Similar to colour, the font should be easy to read. Thus one font is only necessary ; titles, body, and quotes. These were implemnted through [Google Fonts](https://fonts.google.com) using a direct import code within the style.css file.
 
 
 /* Google fonts import */
@@ -241,7 +244,7 @@ This project was made responsive by utilising bootstrap's grid system as well as
 
 ## Deployment
 
-This [GitHub](https://github.com/) project was created using the [Code Institute Template](https://github.com/Code-Institute-Org/ci-full-template) ensuring all necessary dependencies were included when opening within the designated workspace on the [Gitopod IDE](https://www.gitpod.io/).
+This [GitHub](https://github.com/) project was created using the [Code Institute Template](https://github.com/Code-Institute-Org/ci-full-template) ensuring all necessary dependencies.
 
 Setup a repo using this method and template:
 1. Login to your GitHub profile.
@@ -250,7 +253,7 @@ Setup a repo using this method and template:
 4. Generate the necessary name and description for your repo and click 'Create repository from template'
 5. Navigate to the new repo and click the green 'Open' button with the Gitpod logo<br>
 **IMPORTANT - This button should only be clicked once to generate the new IDE workspace**
-6. You can now work on your repository within the Code Institute Gitpod IDE workspace
+1. You can now work on your repository within the Code Institute Gitpod IDE workspace
 
 Once the project repo is created, an early deployment for the live project should performed.<br>
 This allows for early and continuous testing using a variety of devices, as well as the Dev Tools available within browsers.

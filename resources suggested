@@ -1,0 +1,237 @@
+https://docs.google.com/document/d/1o9AHastTpkBrxwcYfFwXcbD1srllFNgXZWlumamQTxY/edit?usp=sharing
+
+
+
+Module 1 Resource Library
+
+
+
+Code Validation & Accessibility
+
+
+Resource
+Link
+W3Schools HTML Validator:
+https://validator.w3.org/
+Jigsaw CSS Validator: 
+https://jigsaw.w3.org/css-validator/
+WCAG Contrast Checker: 
+https://chrome.google.com/webstore/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf
+
+
+
+
+
+
+
+
+Documentation
+
+
+Resource
+Link
+CI README Template
+https://github.com/Code-Institute-Solutions/readme-template
+Markdown Cheat Sheet
+https://www.markdownguide.org/cheat-sheet/
+Responsive Image Generator
+https://ui.dev/amiresponsive
+Markdown Table Generator
+https://www.tablesgenerator.com/markdown_tables
+Emmet documentation
+https://docs.emmet.io/ 
+
+
+
+
+
+
+
+
+
+
+
+
+UX & Design
+
+
+Resource
+Link
+Design Principles
+https://www.jotform.com/blog/how-to-make-a-web-design-look-good/
+Laws of UX
+https://lawsofux.com/
+Figma (design)
+https://www.figma.com/
+Figma for Beginners
+https://www.youtube.com/watch?v=HwiHqfax7Uk&t=7s
+Dribble (design inspo)
+https://dribbble.com/
+Wireframes for Beginners
+https://skillcrush.com/blog/website-wireframe/
+Balsamiq (wireframes)
+https://balsamiq.com/wireframes/
+Licence Key:
+FullStackSoftwareDevelopment|MZBHeJxzCncxiQ+pcSvNyVEILklMzlYIzk8rKU8sSlVwSS1LzckvyE3NK6kxNDczNjEwNDI3tTAxBADfyREV
+How to Use Balsamiq
+ How to Use Balsamiq Wireframes: A Beginner-Friendly Tutorial!
+Youtube HTML & CSS Video
+ HTML & CSS Crash Course Tutorial #10 - Intro to Media Queries
+Flexbox Guide & Cheatsheet
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+FlexboxFroggy (CSS game)
+https://flexboxfroggy.com/
+Font Awesome
+https://fontawesome.com/?utm_source=v4_homepage&utm_medium=display&utm_campaign=fa5_released&utm_content=banner
+Colorsinspo - Colour pallets
+https://colorsinspo.com/ 
+Coolers - colour pallets
+https://coolors.co/  
+
+
+
+
+
+Bootstrap
+
+
+Resource
+Link
+Bootstrap Tutorial Video
+ Learn Bootstrap in less than 20 minutes - Responsive Website Tutorial
+Bootstrap
+https://getbootstrap.com/
+Bootstrap Cheat Sheet
+https://bootstrap-cheatsheet.themeselection.com/
+
+
+
+
+
+
+Git and Github
+
+
+Resource
+Link
+Git and Github for Beginners
+ Git and GitHub Tutorial for Beginners
+Commit Messages
+https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/
+Useful Git Commands
+Make frequent commits to build a good commit history after you add or remove code to your project.
+
+In the TERMINAL window type: 
+
+git add . (to stage the code)
+
+git commit -m “a descriptive message less than 50 chars”
+
+git push
+CI GitHub Template Repo
+https://github.com/Code-Institute-Org/ci-full-template
+
+
+
+
+Debugging
+
+
+Resource
+Link
+Diffchecker
+https://www.diffchecker.com/text-compare/
+Rubber Ducking
+https://rubberduckdebugging.com/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Images & Videos
+
+
+Resource
+Link
+Next Gen Web formats | Article
+https://www.linkedin.com/pulse/unlocking-web-performance-guide-next-gen-image-formats-alizah-epstein/
+Image compressor/converter
+https://tinypng.com/
+Royalty free images
+https://www.pexels.com/
+Favicon Generator
+https://favicon.io/
+HTML iFrames in 3 Minutes
+ Learn HTML iframes in 3 minutes 🖼️
+Image compressor
+https://squoosh.app/
+Giphy - free animations
+https://giphy.com/ 
+Free stock photos
+https://unsplash.com/
+
+
+
+
+
+
+AI Tools
+
+Resource
+Link
+101 covering most aspects of generative AI
+Generative AI 101 
+AI and future of teaching and learning
+AI and future of teaching and learning
+Text to video
+https://runwayml.com/
+Text to image
+https://huggingface.co/spaces/dalle-mini/dalle-mini
+Google gemini
+https://www.midjourney.com/
+Text to music
+https://huggingface.co/spaces/facebook/MusicGen
+Get AI to read big docs etc. and answer questions on it, (so you don’t have to read it)
+https://www.perplexity.ai/
+
+
+Meeting notes and summary
+https://supernormal.com/
+
+
+
+
+
+
+extra links:
+https://codepen.io/
+
+Free Wireframe Tool (Balsamiq)
+Code Institute students have free access to building wireframes with Balsamiq on our annual subscription!
+
+
+Download Balsamiq (Windows or Mac)
+https://balsamiq.com/wireframes/desktop)
+
+
+Enter the License Information below:
+Product:
+Wireframes for Desktop
+License Key:
+FullStackSoftwareDevelopment|MZBHeJxzCncxiQ+pcSvNyVEILklMzlYIzk8rKU8sSlVwSS1LzckvyE3NK6kxNDczNjEwNDI3tTAxBADfyREV
+End Date:
+Dec 31, 2025
+
+
+
