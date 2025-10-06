@@ -291,15 +291,15 @@ Additional information on the deployment process can be found on the official [G
 
 A Lighthouse audit was conducted using the tool on Chrome Devtools of each web page.
 
-Home page:
+Home page: 92%
 
-![Home Page](/assets/documentation/images/testing/lighthouse-home.jpg)
+![Home Page](/assets/documentation/images/testing/Lighthouse/Mainpage-lighthouse/lighthouse92.jpg)
 
-Services: b
-![Home Page](/assets/documentation/images/testing/lighthouse-services.jpg)
+Services: 97%
+![Home Page](/assets/documentation/images/testing/Lighthouse/Services-lighthouse/lighthouse97-services.jpg)
 
-Request: 
-![Home Page](/assets/documentation/images/testing/lighthouse-request.jpg)
+Request: 99%
+![Home Page](/assets/documentation/images/testing/Lighthouse/Request-lighthouse/lighthouse99.jpg)
 
 <hr>
 <p align="right"><a href="#harmonia">Back To Top</a></p>
@@ -308,6 +308,7 @@ Request:
 
 All photos aquired from [iStockPhoto](https://www.istockphoto.com/).
 Hero icarousel image personal and favicon made by Microsoft Copilot.
+Hero Carousel were compressed using the https://squoosh.app/ Image compressor
 
 <hr>
 <p align="right"><a href="#harmonia">Back To Top</a></p>
