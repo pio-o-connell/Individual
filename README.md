@@ -270,21 +270,21 @@ Additional information on the deployment process can be found on the official [G
 
 #### CSS
 
-1 errors found.  warnings arisen using webkit
+0 errors found.  warnings arisen using webkit : msflexbox,webkit,webkit-backshadow
 
-![CSS Validation](assets/documentation/images/testing/homepage-csstest.jpg)
+![CSS Validation](/assets/documentation/images/testing/CSS-Validator/w3c-css.jpg)
 
 #### HTML
 
-9 errors found on home page.
+0 errors found on home page.
 
-![HTML Validation](assets/documentation/images/testing/html-home.jpg)
+![HTML Validation](/assets/documentation/images/testing/HTML-Validation/Homepage/Homepage-HTML-Validation.jpg)
 
-20 errors on services page
-![HTML Validation](assets/documentation/images/testing/services-html.jpg)
+0 errors on services page
+![HTML Validation](assets/documentation/images/testing/HTML-Validation/Services/Services-html-validation.jpg)
 
-10 errors on request
-![HTML Validation](assets/documentation/images/testing/services-html.jpg)
+0 errors on request
+![HTML Validation](assets/documentation/images/testing/HTML-Validation/Request-/request-html-validation.jpg)
 
 
 ### Lighthouse
