@@ -74,7 +74,12 @@ h1 {
     font-family: var(--primary-font), sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #506D1B;
+  /*  color: #506D1B;*/
+    color:var(--primary-color);
+}
+
+h3{
+    color:var(--secondary-color);
 }
 
 h6 {
