@@ -243,6 +243,10 @@ main {
     max-height: 400px;
 }
 
+article div p{
+    text-align:left;
+}
+
 /* Footer */
 footer {
     background-color: #ffffff;

@@ -182,7 +182,7 @@ The navigation bar is a Bootstrap component that allows for easy navigation arou
 
 Bootstrap cards were used for the services section, to layout quick actionable tips. Each card has a linkto extra resources.
 
-![Bootstrap Cards](assets/documentation/images/Bootstrap%20cards/bootstrapcards.jpg )
+![Bootstrap Cards](assets/documentation/images/Bootstrap%20cards/bootstrapcards1.jpg )
 
 #### Footer
 
