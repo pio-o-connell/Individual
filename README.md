@@ -210,7 +210,23 @@ With more time I would create the additional resources page and link it to the a
 
 This project was made responsive by utilising bootstrap's grid system as well as a couplemedia queeries.
 
-![Responsive Design](/documentation/images/responsive.png)
+
+This website is fully responsive, meaning it automatically adjusts to different screen sizes, whether viewed on a mobile phone, tablet, or desktop.
+
+<details>
+<summary>Click to view responsiveness
+</summary>
+<img src="documentation/readme-images/responsiveness.webp" alt="Responsiveness" style="width:100%;">
+
+[Click to view live responsiveness](https://ui.dev/amiresponsive?url=https://ozzymara.github.io/mind-haven/)  
+</details><br>
+
+Implementation Details
+
+• The [Bootstrap framework](https://getbootstrap.com)  allowed for a responsive design without the need for additional CSS or media queries.  
+• In some instances, responsiveness required fine-tuning and troubleshooting, particularly with the assistance of GitHub Copilot, an AI-powered coding assistant designed to help developers write code more efficiently. It provides real-time code suggestions, automates repetitive tasks, and even helps debug and refactor code.  
+• While some awkward elements still exist, the site successfully adapts to various screen sizes.
+<br>
 
 <hr>
 <p align="right"><a href="#harmonia">Back To Top</a></p>
