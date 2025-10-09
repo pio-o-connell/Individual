@@ -101,19 +101,29 @@ The colour swatch using < https://coolors.co/e9d98a-506d1b-c9b66b-e6e2d2-4d4d4d 
 
 
 
-|------------------|--------|-----------|-------|<br>
-| **Flax**         | <span style="display:inline-block;width:20px;height:20px;background:#E9D98A;border-radius:4px;border:1px solid #ccc;"></span>=-0+_)}~}{@:}
-| `#E9D98A`&nbsp;&nbsp;&nbsp;&nbsp | A simple background – `background: #E9D98A` |
-<br>| **Dark Moss Green** | <span style="display:inline-block;width:20px;height:20px;background:#506D1B;border-radius:4px;border:1px solid #ccc;"></span> 
-| `#506D1B` | Works well for buttons or H2 text for contrast.<br>CTA: `--secondary-color: #506D1B` Secondary button: `background: #506D1B` |
-<br>| **Ecru** | <span style="display:inline-block;width:20px;height:20px;background:#C9B66B;border-radius:4px;border:1px solid #ccc;"></span> 
-| `#C9B66B` | Use to highlight elements like links or hover effects. |
-<br>| **Eggshell** | <span style="display:inline-block;width:20px;height:20px;background:#E6E2D2;border-radius:4px;border:1px solid #ccc;"></span> 
-| `#E6E2D2` | Perfect for background areas or cards. |
-<br>| **Davy’s Grey** | <span style="display:inline-block;width:20px;height:20px;background:#4D4D4D;border-radius:4px;border:1px solid #ccc;"></span> 
-| `#4D4D4D` |&nbsp;&nbsp;&nbsp;&nbsp Primary color: `--primary-color: #3a2620`<br>&nbsp;&nbsp;&nbsp;&nbspTitles/Subtitles: `#4D4D4D`<br>&nbsp;&nbsp;&nbsp;&nbspBody text: `#4D4D4D`<br>&nbsp;&nbsp;&nbsp;&nbspHeader/Footer: `#4D4D4D`<br>&nbsp;&nbsp;&nbsp;&nbspPrimary button: `#4D4D4D`<br>Links: `#4D4D4D` |
 
 
+|-----Main Palette---------|---Hex---------|------------------------------------------|<br>
+|---------------------------|---------------|---------------------------------------------|<br>
+|--------------------------|---------------|---------------------------------------------|<br>
+|-**Flax**-----------------|-#E9D98A-------|--A simple background – `background:---------|<br>
+|--------------------------|---------------|---------------------------------------------|<br>
+|- **Dark Moss Green**-----|-#506D1B-------|--Secondary colour---------------------------|<br>
+|--------------------------|---------------|---------------------------------------------|<br>
+|--------------------------|---------------|--CTA:- Secondary button--|<br>--------------|<br>
+|--------------------------|---------------|---------------------------------------------|<br>
+|----**Ecru**--------------|-#C9B66B-------|--highlight  links or hover effects----------|<br>
+|--------------------------|---------------|---------------------------------------------|<br>
+|----**Eggshell**----------|-#E6E2D2-------|--Perfect for background areas or cards.-----|<br>
+|--------------------------|---------------|---------------------------------------------|<br>
+|----**Davy’s Grey**-------|-#4D4D4D-------|--Primary colour-----------------------------|<br>
+|--------------------------|---------------|---------------------------------------------|<br>
+|--------------------------|---------------|--Title and subtitles------------------------|<br>
+|--------------------------|---------------|---------------------------------------------|<br>
+|--------------------------|---------------|--Body text----------------------------------|<br>
+|--------------------------|---------------|---------------------------------------------|<br>
+|--------------------------|---------------|--Links:-------------------------------------|<br>
+|--------------------------|---------------|---------------------------------------------|<br>
 
 To guarantee adherence to accessibility standards, the [Colour Contrast Checker](https://colourcontrast.cc/) (also available as a Chrome extension), [WebAIM](https://webaim.org/resources/contrastchecker/) Contrast Checker, and [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) tools were used to validate contrast levels. These tools helped to make informed decisions regarding the final design.
 
