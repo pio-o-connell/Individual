@@ -1,11 +1,12 @@
-# Harmonia 
-Harmonia 
+# Harmonia
 
-## Introduction 
+Harmonia
+
+## Introduction
 
 "Harmonia" is my first assessed portfolio project, developed as part of the Code Institute Full Stack Software Developer Bootcamp. This project showcases my skills in HTML5, CSS3, and Bootstrap to create a responsive, accessible website promoting chemical free gardening and services available locally. The name Harmonia is actually co-pilot inspired.
 
-The live project can be found here: <a href="https://pio-o-connell.github.io/Individual/">Harmonia</a> 
+The live project can be found here: <a href="https://pio-o-connell.github.io/Individual/">Harmonia</a>
 
 <h2 align="center" id="TOC">Table of Contents</h2>
 
@@ -46,12 +47,13 @@ The live project can be found here: <a href="https://pio-o-connell.github.io/Ind
 
 ## Project Outline
 
-### External User’s Goal: 
-The user seeks accessible, beginner-friendly information on the benefits of eco-friendly gardening practices and behaviours. 
+### External User’s Goal:
 
-### Site Owner’s Goal: 
+The user seeks accessible, beginner-friendly information on the benefits of eco-friendly gardening practices and behaviours.
+
+### Site Owner’s Goal:
+
 The site owner wants to create a welcoming webpage that provides infomation on eco-friendly gardening using a clean and supportive design. The focus is on using HTML and CSS with Bootstrap to create a calming and well-organised user experience.
-
 
 ### Key Objectives
 
@@ -65,53 +67,55 @@ The site owner wants to create a welcoming webpage that provides infomation on e
 
 ### UX Design
 
-### User Stories 
-- I am the site owner who wants to  highlight the need for everybody to create a more sustainable environment 
+### User Stories
+
+- I am the site owner who wants to highlight the need for everybody to create a more sustainable environment
 - I want the home page especially to have a welcoming carousel section with positive images of a thriving garden so that users feel encouraged to learn more about ecofriendly centric garden behaviours and practies.
-- I  want to draw attention to common garden jobs and  their frequency to achieve the goal of a healthy maintainable garden.
+- I want to draw attention to common garden jobs and their frequency to achieve the goal of a healthy maintainable garden.
 - I also want to offer services that are available in THEIR local area.
 - I am a user interested in learning about gardening . I want clear, concise information presented in a structured way so that I can understand the basics.
 - I am a user seeking professional advice
 - I am a user that maintains my own garden although I do need help from time to time
 - I am a user that feel its unnessary to buy all the equipment, easier to hire gardener once a year for a particulat job
-- I am user that would like to work at gardening 
+- I am user that would like to work at gardening
 - I am a site owner aiming for a responsive design. I want the page to adjust seamlessly on any screen size so that users on different devices can access the content without issues.
 - I am a visitor seeking professional gardening information. I want a simple layout so that I can easily find the information without feeling overwhelmed.
-- I am a user interested in seeing results and I want to  feel encouraged and motivated to take affirmative action while browsing the site.
+- I am a user interested in seeing results and I want to feel encouraged and motivated to take affirmative action while browsing the site.
 - I am a person who may need additional resources for gardening support. I want a list of reputable links to gardening organizations so that I can access further information and support if needed.
 - As a teacher seeking to support my students, I want educational materials or activities that I can use in my classroom so that I can promote gardening among students.
 - As a user interested in mental health events, I want a calendar or list of upcoming webinars and workshops so that I can participate in live learning opportunities.
-
 
 <hr>
 <p align="right"><a href="#harmonia">Back To Top</a></p>
 
 ## Colors
-There are a lot of colours in a garden already so I used a simple background #E9D98A , one colour for all text    --primary-color: #3a2620;  a CTA of    --secondary-color: #506D1B ; and the use of whitespace where appropiate. I used image picker website to choose a colour scheme  https://imagecolorpicker.com/
 
-The image is 
+There are a lot of colours in a garden already so I used , one PRIMARY colour for all text SECONDARY and the use of whitespace where appropiate.
+
+I used image picker website to choose a colour scheme https://imagecolorpicker.com/
+The image is
 ![alt text](image.png)
 
-A colour swatch using < https://coolors.co/e9d98a-506d1b-c9b66b-e6e2d2-4d4d4d > suggests the following palette  -
+The colour swatch using < https://coolors.co/e9d98a-506d1b-c9b66b-e6e2d2-4d4d4d > -
 ![Color Palette](/assets/images/SWATCH.jpg).
 
-Other colours taken from the image suggested include -
-
-#506D1B works well for buttons or header text for contrast.
-#C9B66B can highlight elements like links or hover effects.
-#E6E2D3 is perfect for background areas or cards.
 
 
-- Title and subtitles: '#4D4D4D'
-- Body text: '#4D4D4D'
-- Header and footer: '#4D4D4D';
-- Background: '#E9D98A'
-- Primary button: '#4D4D4D'
-- Secondary button: '#506D1B;
-- Links: '#4D4D4D'
+|------------------|--------|-----------|-------|<br>
+| **Flax**         | <span style="display:inline-block;width:20px;height:20px;background:#E9D98A;border-radius:4px;border:1px solid #ccc;"></span>=-0+_)}~}{@:}
+| `#E9D98A`&nbsp;&nbsp;&nbsp;&nbsp | A simple background – `background: #E9D98A` |
+<br>| **Dark Moss Green** | <span style="display:inline-block;width:20px;height:20px;background:#506D1B;border-radius:4px;border:1px solid #ccc;"></span> 
+| `#506D1B` | Works well for buttons or H2 text for contrast.<br>CTA: `--secondary-color: #506D1B` Secondary button: `background: #506D1B` |
+<br>| **Ecru** | <span style="display:inline-block;width:20px;height:20px;background:#C9B66B;border-radius:4px;border:1px solid #ccc;"></span> 
+| `#C9B66B` | Use to highlight elements like links or hover effects. |
+<br>| **Eggshell** | <span style="display:inline-block;width:20px;height:20px;background:#E6E2D2;border-radius:4px;border:1px solid #ccc;"></span> 
+| `#E6E2D2` | Perfect for background areas or cards. |
+<br>| **Davy’s Grey** | <span style="display:inline-block;width:20px;height:20px;background:#4D4D4D;border-radius:4px;border:1px solid #ccc;"></span> 
+| `#4D4D4D` |&nbsp;&nbsp;&nbsp;&nbsp Primary color: `--primary-color: #3a2620`<br>&nbsp;&nbsp;&nbsp;&nbspTitles/Subtitles: `#4D4D4D`<br>&nbsp;&nbsp;&nbsp;&nbspBody text: `#4D4D4D`<br>&nbsp;&nbsp;&nbsp;&nbspHeader/Footer: `#4D4D4D`<br>&nbsp;&nbsp;&nbsp;&nbspPrimary button: `#4D4D4D`<br>Links: `#4D4D4D` |
 
 
 
+To guarantee adherence to accessibility standards, the [Colour Contrast Checker](https://colourcontrast.cc/) (also available as a Chrome extension), [WebAIM](https://webaim.org/resources/contrastchecker/) Contrast Checker, and [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) tools were used to validate contrast levels. These tools helped to make informed decisions regarding the final design.
 
 <hr>
 <p align="right"><a href="#harmonia">Back To Top</a></p>
@@ -120,8 +124,7 @@ Other colours taken from the image suggested include -
 
 Similar to colour, the font should be easy to read. Thus one font is only necessary ; titles, body, and quotes. These were implemnted through [Google Fonts](https://fonts.google.com) using a direct import code within the style.css file.
 
-
-/* Google fonts import */
+/_ Google fonts import _/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
 
 [Inter](https://fonts.google.com/specimen/Inter) was used everywhere.
@@ -129,15 +132,11 @@ Similar to colour, the font should be easy to read. Thus one font is only necess
 <hr>
 <p align="right"><a href="#harmonia">Back To Top</a></p>
 
-
 ### Wireframes
-
- 
 
 **Mobile Wireframe**
 
 ![Mobile Wireframe](/assets/documentation/images/balsamic/mobile-screenshot.jpg)
-
 
 **Tablet Wireframe**
 
@@ -152,16 +151,14 @@ Similar to colour, the font should be easy to read. Thus one font is only necess
 ![Tablet Wireframe](/assets/documentation/images/balsamic/XL-services.jpg)
 ![Tablet Wireframe](/assets/documentation/images/balsamic/laptopxlrequest.jpg)
 
-
 <hr>
 <p align="right"><a href="#harmonia">Back To Top</a></p>
 
 ## Imagery
 
-I wanted to convey a garden well maintained is a beautiful open space.  Therfore I have a carousel effect on the main page features images from a garden that I do maintain. It is hoped that this is the main focus of attention. Evrything else is minimised fonts ,colours . There would be a lot more colour again in the summertime,
+I wanted to convey a garden well maintained is a beautiful open space. Therfore I have a carousel effect on the main page features images from a garden that I do maintain. It is hoped that this is the main focus of attention. Evrything else is minimised fonts ,colours . There would be a lot more colour again in the summertime,
 
 For the background images on cards I simply use youtube frampicker option. It needed to be actual real pictures.
-
 
 <hr>
 <p align="right"><a href="#harmonia">Back To Top</a></p>
@@ -172,7 +169,7 @@ For the background images on cards I simply use youtube frampicker option. It ne
 
 #### Navigation and Carousel Section
 
-I decided to use images of a garden I maintain  to convey my message about beautiful open spaces. This section features a  CTA button that then opens to maintenance services available.
+I decided to use images of a garden I maintain to convey my message about beautiful open spaces. This section features a CTA button that then opens to maintenance services available.
 
 The navigation bar is a Bootstrap component that allows for easy navigation around the site using a familiar method for a positive user experience.
 
@@ -180,9 +177,9 @@ The navigation bar is a Bootstrap component that allows for easy navigation arou
 
 #### Bootstrap Cards
 
-Bootstrap cards were used for the services section, to layout quick actionable tips. Each card has a linkto extra resources.
+Bootstrap cards were used for the services section, to layout quick actionable tips. Each card has a linkto extra resources and a book to callout.
 
-![Bootstrap Cards](assets/documentation/images/Bootstrap%20cards/bootstrapcards1.jpg )
+![Bootstrap Cards](assets/documentation/images/Bootstrap%20cards/bootstrapcards1.jpg)
 
 #### Footer
 
@@ -190,10 +187,8 @@ For the footer I used bootstrap utilities so that it sticks to the bottom of the
 
 ![Footer](assets/documentation/images/Footer/footer.jpg)
 
-
 <hr>
 <p align="right"><a href="#harmonia">Back To Top</a></p>
-
 
 #### Links and Buttons
 
@@ -210,27 +205,24 @@ With more time I would create the additional resources page and link it to the a
 
 This project was made responsive by utilising bootstrap's grid system as well as a couplemedia queeries.
 
-
 This website is fully responsive, meaning it automatically adjusts to different screen sizes, whether viewed on a mobile phone, tablet, or desktop.
 
 <details>
 <summary>Click to view responsiveness
 </summary>
-<img src="documentation/readme-images/responsiveness.webp" alt="Responsiveness" style="width:100%;">
-
-[Click to view live responsiveness](https://ui.dev/amiresponsive?url=https://ozzymara.github.io/mind-haven/)  
+<img src="assets/images/README/Responsive.jpg" alt="Responsiveness" style="width:100%;">
+[Click to view live responsiveness](https://ui.dev/amiresponsive?url=https://pio-o-connell.github.io/Individual/index.html)  
 </details><br>
 
 Implementation Details
 
-• The [Bootstrap framework](https://getbootstrap.com)  allowed for a responsive design without the need for additional CSS or media queries.  
+• The [Bootstrap framework](https://getbootstrap.com) allowed for a responsive design without the need for additional CSS or media queries.  
 • In some instances, responsiveness required fine-tuning and troubleshooting, particularly with the assistance of GitHub Copilot, an AI-powered coding assistant designed to help developers write code more efficiently. It provides real-time code suggestions, automates repetitive tasks, and even helps debug and refactor code.  
 • While some awkward elements still exist, the site successfully adapts to various screen sizes.
 <br>
 
 <hr>
 <p align="right"><a href="#harmonia">Back To Top</a></p>
-
 
 ## Built With
 
@@ -239,7 +231,6 @@ Implementation Details
 - HTML5
 - CSS3
 - GitHub
-  
 
 ### Libraries and Frameworks
 
@@ -254,7 +245,6 @@ Implementation Details
 - MS CoPilot
 - GitHub CoPilot
 
-
 <hr>
 <p align="right"><a href="#harmonia">Back To Top</a></p>
 
@@ -263,19 +253,19 @@ Implementation Details
 This [GitHub](https://github.com/) project was created using the [Code Institute Template](https://github.com/Code-Institute-Org/ci-full-template) ensuring all necessary dependencies.
 
 Setup a repo using this method and template:
+
 1. Login to your GitHub profile.
 2. Navigate to the Code Institute Full Template
 3. Click the dropdown for 'Use this template' and select "Create a new repository"
 4. Generate the necessary name and description for your repo and click 'Create repository from template'
 5. Navigate to the new repo and click the green 'Open' button with the Gitpod logo<br>
-**IMPORTANT - This button should only be clicked once to generate the new IDE workspace**
-1. You can now work on your repository within the Code Institute Gitpod IDE workspace
+   **IMPORTANT - This button should only be clicked once to generate the new IDE workspace**
+6. You can now work on your repository within the Code Institute Gitpod IDE workspace
 
 Once the project repo is created, an early deployment for the live project should performed.<br>
 This allows for early and continuous testing using a variety of devices, as well as the Dev Tools available within browsers.
 
 Additional information on the deployment process can be found on the official [GitHub Docs](https://docs.github.com/en/pages/quickstart)
-
 
 <hr>
 <p align="right"><a href="#harmonia">Back To Top</a></p>
@@ -286,7 +276,7 @@ Additional information on the deployment process can be found on the official [G
 
 #### CSS
 
-0 errors found.  warnings arisen using webkit : msflexbox,webkit,webkit-backshadow
+0 errors found. warnings arisen using webkit : msflexbox,webkit,webkit-backshadow
 
 ![CSS Validation](/assets/documentation/images/testing/CSS-Validator/w3c-css.jpg)
 
@@ -301,7 +291,6 @@ Additional information on the deployment process can be found on the official [G
 
 0 errors on request
 ![HTML Validation](assets/documentation/images/testing/HTML-Validation/Request-/request-html-validation.jpg)
-
 
 ### Lighthouse
 
@@ -322,10 +311,10 @@ Request: 99%
 
 ### Media
 
-All photos aquired from [iStockPhoto](https://www.istockphoto.com/).
+All photos aquired from my personal collection.
 Hero icarousel image personal and favicon made by Microsoft Copilot.
 Hero Carousel were compressed using the https://squoosh.app/ Image compressor
+Images for services were generated by Microsoft copliot
 
 <hr>
 <p align="right"><a href="#harmonia">Back To Top</a></p>
-
