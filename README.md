@@ -1,6 +1,6 @@
 # Harmonia
 
-Harmonia
+![Harmonia]<img src="assets/documentation/images/Main-page.jpg" alt="Home page image" style="width:60%;">
 
 ## Introduction
 
@@ -90,11 +90,16 @@ The site owner wants to create a welcoming webpage that provides infomation on e
 
 ## Colors
 
-There are a lot of colours in a garden already so I used , one PRIMARY colour for all text SECONDARY and the use of whitespace where appropiate.
+There are a lot of colours in a garden already so I used , one PRIMARY colour for all text except a SECONDARY colour for a Call to Action and the use of whitespace where appropiate.
+The main page is using the design principle of thirds to create a more balanced and interesting composition.
 
 I used image picker website to choose a colour scheme https://imagecolorpicker.com/
 The image is
-![alt text](image.png)
+<details>
+<summary>Click to image from which  colour palette generated
+</summary>
+<img src="assets/images/winters/Winters-back.jpg" alt="Image from which colour palette generated" style="width:60%;">
+</details><br>
 
 The colour swatch using < https://coolors.co/e9d98a-506d1b-c9b66b-e6e2d2-4d4d4d > -
 ![Color Palette](/assets/images/SWATCH.jpg).
@@ -103,27 +108,24 @@ The colour swatch using < https://coolors.co/e9d98a-506d1b-c9b66b-e6e2d2-4d4d4d 
 
 
 
-|-----Main Palette---------|---Hex---------|------------------------------------------|<br>
-|---------------------------|---------------|---------------------------------------------|<br>
-|--------------------------|---------------|---------------------------------------------|<br>
-|-**Flax**-----------------|-#E9D98A-------|--A simple background – `background:---------|<br>
-|--------------------------|---------------|---------------------------------------------|<br>
-|- **Dark Moss Green**-----|-#506D1B-------|--Secondary colour---------------------------|<br>
-|--------------------------|---------------|---------------------------------------------|<br>
-|--------------------------|---------------|--CTA:- Secondary button--|<br>--------------|<br>
-|--------------------------|---------------|---------------------------------------------|<br>
-|----**Ecru**--------------|-#C9B66B-------|--highlight  links or hover effects----------|<br>
-|--------------------------|---------------|---------------------------------------------|<br>
-|----**Eggshell**----------|-#E6E2D2-------|--Perfect for background areas or cards.-----|<br>
-|--------------------------|---------------|---------------------------------------------|<br>
-|----**Davy’s Grey**-------|-#4D4D4D-------|--Primary colour-----------------------------|<br>
-|--------------------------|---------------|---------------------------------------------|<br>
-|--------------------------|---------------|--Title and subtitles------------------------|<br>
-|--------------------------|---------------|---------------------------------------------|<br>
-|--------------------------|---------------|--Body text----------------------------------|<br>
-|--------------------------|---------------|---------------------------------------------|<br>
-|--------------------------|---------------|--Links:-------------------------------------|<br>
-|--------------------------|---------------|---------------------------------------------|<br>
+| ----Main Palette-------  | ----Hex------- | --------------------------------------------- |<br>
+| ------------------------  | ---------------- | --------------------------------------------- |<br>
+| -------**Flax**------------  | ---- #E9D98A-- | --A simple background------------------- |<br> 
+| ------------------------  | ----------------- | -------------------------------------------- |<br> 
+| -**Dark Moss Green**---  | ---- #506D1B-- | --CTA--Secondary colour----------------- |<br>
+|  ------------------------   | ----------------- | -------------------------------------------- |<br>
+| ---**Ecru**----------------  | ---- #C9B66B-- | --highlight links or hover effects--------- |<br>
+| ------------------------ | ----------------- | -------------------------------------------- |<br>
+| ---**Eggshell**----------- | ---- #E6E2D2--- | --Perfect for background areas or cards. |<br>
+| ------------------------ | ----------------- | -------------------------------------------- |<br>
+| ---**Davy’s Grey**------- | ---- #4D4D4D-- | --Primary colour-------------------------- |<br>
+| ------------------------ | ----------------- | -------------------------------------------- |<br>
+| ------------------------ | ----------------- | --Title and subtitles----------------------- |<br>
+| ------------------------ | ----------------- | -------------------------------------------- |<br>
+| ------------------------ | ----------------- | --Body text------------------------------- |<br>
+| ------------------------ | ----------------- | -------------------------------------------- |<br>
+| ------------------------ | ----------------- | --Links:------------------------------------ |<br>
+| ------------------------ | ----------------- | -------------------------------------------- |<br>
 
 To guarantee adherence to accessibility standards, the [Colour Contrast Checker](https://colourcontrast.cc/) (also available as a Chrome extension), [WebAIM](https://webaim.org/resources/contrastchecker/) Contrast Checker, and [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) tools were used to validate contrast levels. These tools helped to make informed decisions regarding the final design.
 
@@ -131,21 +133,21 @@ To guarantee adherence to accessibility standards, the [Colour Contrast Checker]
 <details>
 <summary>Click to view colour contrast checker results
 </summary>
-<img src="assets/documentation/images/testing/Color-contrast/Colorcontrastcc.jpg" alt="Colour contrast results" style="width:100%;">
+<img src="assets/documentation/images/testing/Color-contrast/Colorcontrastcc.jpg" alt="Colour contrast results" style="width:60%;">
 [Click to view live responsiveness](https://ui.dev/amiresponsive?url=https://pio-o-connell.github.io/Individual/index.html)  
 </details><br>
 
 <details>
 <summary>Click to view WebAIM results
 </summary>
-<img src="assets/documentation/images/testing/Color-contrast/web-aim.jpg" alt="Colour WebAIM results" style="width:100%;">
+<img src="assets/documentation/images/testing/Color-contrast/web-aim.jpg" alt="Colour WebAIM results" style="width:60%;">
 [Click to view live responsiveness](https://ui.dev/amiresponsive?url=https://pio-o-connell.github.io/Individual/index.html)  
 </details><br>
 
 <details>
 <summary>Click to view Adobe Color results
 </summary>
-<img src="assets/documentation/images/testing/Color-contrast/adobe-color-analyzer.jpg" alt="Adobe Color contrast results" style="width:100%;">
+<img src="assets/documentation/images/testing/Color-contrast/adobe-color-analyzer.jpg" alt="Adobe Color contrast results" style="width:60%;">
 [Click to view live responsiveness](https://ui.dev/amiresponsive?url=https://pio-o-connell.github.io/Individual/index.html)  
 </details><br>
 
@@ -155,7 +157,8 @@ To guarantee adherence to accessibility standards, the [Colour Contrast Checker]
 
 ## Fonts
 
-Similar to colour, the font should be easy to read. Thus one font is only necessary ; titles, body, and quotes. These were implemnted through [Google Fonts](https://fonts.google.com) using a direct import code within the style.css file.
+Similar to colour, the font should be easy to read. Thus one font is only necessary i.e. for titles, body, and a call to actiob(CTA).
+ These were implemnted through [Google Fonts](https://fonts.google.com) using a direct import code within the style.css file.
 
 /_ Google fonts import _/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
@@ -169,20 +172,34 @@ Similar to colour, the font should be easy to read. Thus one font is only necess
 
 **Mobile Wireframe**
 
-![Mobile Wireframe](/assets/documentation/images/balsamic/mobile-screenshot.jpg)
+<details>
+<summary>Click to view mobile wireframe
+</summary>
+<img src="assets/documentation/images/balsamic/mobile-screenshot.jpg" alt="Mobile wireframe" style="width:40%;"> 
+</details><br>
+
 
 **Tablet Wireframe**
 
-![Tablet Wireframe](/assets/documentation/images/balsamic/xllaptophome.jpg)
-![Tablet Wireframe](/assets/documentation/images/balsamic/laptop-services.jpg)
+<details>
+<summary>Click to view mobile wireframe
+</summary>
+<img src="assets/documentation/images/balsamic/xllaptophome.jpg" alt="Tablet Home wireframe" style="width:30%;"> 
+<img src="assets/documentation/images/balsamic/laptop-services.jpg" alt="Tablet Services wireframe" style="width:30%;">
+<img src="assets/documentation/images/balsamic/laptopxlrequest.jpg" alt="Tablet Request wireframe" style="width:30%;">
+</details><br>
 
-![Tablet Wireframe](/assets/documentation/images/balsamic/laptopxlrequest.jpg)
 
 **Desktop Wireframes**
 
-![Tablet Wireframe](/assets/documentation/images/balsamic/xllaptophome.jpg)
-![Tablet Wireframe](/assets/documentation/images/balsamic/XL-services.jpg)
-![Tablet Wireframe](/assets/documentation/images/balsamic/laptopxlrequest.jpg)
+<details>
+<summary>Click to view XL wireframe
+</summary>
+<img src="assets/documentation/images/balsamic/xllaptophome.jpg" alt="Tablet Home wireframe" style="width:30%;"> 
+<img src="assets/documentation/images/balsamic/XL-services.jpg" alt="Tablet Services wireframe" style="width:30%;">
+<img src="assets/documentation/images/balsamic/laptopxlrequest.jpg" alt="Tablet Request wireframe" style="width:30%;">
+</details><br>
+
 
 <hr>
 <p align="right"><a href="#harmonia">Back To Top</a></p>
@@ -206,19 +223,33 @@ I decided to use images of a garden I maintain to convey my message about beauti
 
 The navigation bar is a Bootstrap component that allows for easy navigation around the site using a familiar method for a positive user experience.
 
-![Header](/assets/documentation/images/NavCarousel/navigateCarousel.jpg)
+<details>
+<summary>Click to view Navigation and Carousel section 
+</summary>
+<img src="assets/documentation/images/NavCarousel/navigateCarousel.jpg" alt="Navigation and Carousel Section" style="width:40%;"> 
+</details><br>
+
 
 #### Bootstrap Cards
 
 Bootstrap cards were used for the services section, to layout quick actionable tips. Each card has a linkto extra resources and a book to callout.
 
-![Bootstrap Cards](assets/documentation/images/Bootstrap%20cards/bootstrapcards1.jpg)
+<details>
+<summary>Click to view Bootstrap Cards
+</summary>
+<img src="assets/documentation/images/Bootstrap%20cards/bootstrapcards1.jpg" alt="Bootstrap Cards" style="width:40%;"> 
+</details><br>
 
 #### Footer
 
 For the footer I used bootstrap utilities so that it sticks to the bottom of the page. The footer includes contact information as well as links to social media platforms and the privacy agreement.
 
-![Footer](assets/documentation/images/Footer/footer.jpg)
+<details>
+<summary>Click to view Bootstrap Cards
+</summary>
+<img src="assets/documentation/images/Footer/footer.jpg" alt="Bootstrap Cards" style="width:40%;"> 
+</details><br>
+
 
 <hr>
 <p align="right"><a href="#harmonia">Back To Top</a></p>
@@ -261,17 +292,39 @@ Implementation Details
 
 ### Technologies and Languages
 
+![Static Badge](https://img.shields.io/badge/HTML5-Language-grey?logo=html5&logoColor=%23ffffff&color=%23E34F26)
+![Static Badge](https://img.shields.io/badge/CSS3-Language-grey?logo=css3&logoColor=%23ffffff&color=%231572B6)
+
+<a href="https://git-scm.com/" target=_blank_>![Static Badge](https://img.shields.io/badge/Git-v2.51.0-grey?logo=git&logoColor=%23ffffff&color=%23F05032)</a>
+<a href="https://github.com/" target="_blank">![Static Badge](https://img.shields.io/badge/GitHub-Repo_Hosting-white?logo=github&logoColor=%23ffffff&color=%23181717)</a>
+
+
 - HTML5
 - CSS3
 - GitHub
 
 ### Libraries and Frameworks
 
+<a href="https://getbootstrap.com/" target="_blank">![Static Badge](https://img.shields.io/badge/Bootstrap-v5.3.3-grey?logo=bootstrap&logoColor=%23ffffff&color=%237952B3)</a>
+<a href="#" target="_blank">![Static Badge](https://img.shields.io/badge/Font_Awesome-Icons-grey?logo=fontawesome&logoColor=%23ffffff&color=%23538DD7)</a>
+<a href="#" target="_blank">![Static Badge](https://img.shields.io/badge/Google_Fonts-Fonts-grey?logo=googlefonts&logoColor=%23ffffff&color=%234285F4)</a>
+
 - Bootstrap 5.3.3
 - Font Awesome
 - Google Fonts
 
 ### Tools and Programs
+
+
+<a href="https://balsamiq.com/wireframes/" target="_blank">![Static Badge](https://img.shields.io/badge/Balsamiq-Wireframes-grey?logoColor=%23ffffff&color=%23CC0100)</a>
+![Static Badge](https://img.shields.io/badge/Microsoft-Copilot-5E5E5E?style=flat-square&logo=microsoft&logoColor=white&color=0078D4)
+![Static Badge](https://img.shields.io/badge/ChatGPT-00A67E?style=flat-square&logo=openai&logoColor=white&color=00A67E)
+![Static Badge](https://img.shields.io/badge/GitHub_Copilot-181717?logo=githubcopilot&logoColor=white&color=1B1F23)
+
+[![Squoosh](https://img.shields.io/badge/Squoosh-squoosh.app-0b69ff?style=for-the-badge)](https://squoosh.app)
+
+
+
 
 - Balsamiq
 - ChatGPT
@@ -308,36 +361,63 @@ Additional information on the deployment process can be found on the official [G
 ### Validation
 
 #### CSS
-
+The CSS was checked using the w3C validation service
 0 errors found. warnings arisen using webkit : msflexbox,webkit,webkit-backshadow
 
-![CSS Validation](/assets/documentation/images/testing/CSS-Validator/w3c-css.jpg)
+
+![CSS Validation]
+<details>
+<summary>Click to see results from wc3 validation service
+</summary>
+<img src="assets/documentation/images/testing/CSS-Validator/w3c-css.jpg" alt="Results from CSS validation service" style="width:60%;">
+</details><br>
 
 #### HTML
-
+The HTML was checked using the w3C markup validation service
 0 errors found on home page.
 
-![HTML Validation](/assets/documentation/images/testing/HTML-Validation/Homepage/Homepage-HTML-Validation.jpg)
+![HTML Validation]
+<details>
+<summary>Click to see results from wc3 validation service
+</summary>
+<img src="assets/documentation/images/testing/HTML-Validation/Homepage/Homepage-HTML-Validation.jpg" alt="Results for Home page from HTML validation service" style="width:30%;">
 
-0 errors on services page
-![HTML Validation](assets/documentation/images/testing/HTML-Validation/Services/Services-html-validation.jpg)
+<img src="assets/documentation/images/testing/HTML-Validation/Services/Services-html-validation.jpg" alt="Results for Services page from HTML validation service" style="width:30%;">
+<img src="assets/documentation/images/testing/HTML-Validation/Request-/request-html-validation.jpg" alt="Results for Request page from HTML validation service" style="width:30%;">
+</details><br>
 
-0 errors on request
-![HTML Validation](assets/documentation/images/testing/HTML-Validation/Request-/request-html-validation.jpg)
 
 ### Lighthouse
-
+Lighthouse is an open-source, automated tool for improving the performance, quality, and correctness of your web apps.
 A Lighthouse audit was conducted using the tool on Chrome Devtools of each web page.
 
-Home page: 92%
+![Home Page]
+score: 92%
+<details>
+<summary>Click to see Home page results from lighhouse service
+</summary>
+<img src="assets/documentation/images/testing/Lighthouse/Mainpage-lighthouse/lighthouse92.jpg" alt="Results from Lighthouse audit for home pageshow score 92%" style="width:60%;">
+</details><br>
 
-![Home Page](/assets/documentation/images/testing/Lighthouse/Mainpage-lighthouse/lighthouse92.jpg)
 
-Services: 97%
-![Home Page](/assets/documentation/images/testing/Lighthouse/Services-lighthouse/lighthouse97-services.jpg)
+Services score: 97%
+<details>
+<summary>Click to see Services page results from lighhouse service
+</summary>
+<img src="assets/documentation/images/testing/Lighthouse/Services-lighthouse/lighthouse97-services.jpg" alt="Results from Lighthouse audit for services page show score 97%" style="width:60%;">
+</details><br>
+
+
+
+
 
 Request: 99%
-![Home Page](/assets/documentation/images/testing/Lighthouse/Request-lighthouse/lighthouse99.jpg)
+<details>
+<summary>Click to see Request page results from lighhouse service
+</summary>
+<img src="assets/documentation/images/testing/Lighthouse/Request-lighthouse/lighthouse99.jpg" alt="Results from Lighthouse audit for rquest page show score 99%" style="width:60%;">
+</details><br>
+
 
 <hr>
 <p align="right"><a href="#harmonia">Back To Top</a></p>
