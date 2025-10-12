@@ -127,6 +127,29 @@ The colour swatch using < https://coolors.co/e9d98a-506d1b-c9b66b-e6e2d2-4d4d4d 
 
 To guarantee adherence to accessibility standards, the [Colour Contrast Checker](https://colourcontrast.cc/) (also available as a Chrome extension), [WebAIM](https://webaim.org/resources/contrastchecker/) Contrast Checker, and [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) tools were used to validate contrast levels. These tools helped to make informed decisions regarding the final design.
 
+
+<details>
+<summary>Click to view colour contrast checker results
+</summary>
+<img src="assets/documentation/images/testing/Color-contrast/Colorcontrastcc.jpg" alt="Colour contrast results" style="width:100%;">
+[Click to view live responsiveness](https://ui.dev/amiresponsive?url=https://pio-o-connell.github.io/Individual/index.html)  
+</details><br>
+
+<details>
+<summary>Click to view WebAIM results
+</summary>
+<img src="assets/documentation/images/testing/Color-contrast/web-aim.jpg" alt="Colour WebAIM results" style="width:100%;">
+[Click to view live responsiveness](https://ui.dev/amiresponsive?url=https://pio-o-connell.github.io/Individual/index.html)  
+</details><br>
+
+<details>
+<summary>Click to view Adobe Color results
+</summary>
+<img src="assets/documentation/images/testing/Color-contrast/adobe-color-analyzer.jpg" alt="Adobe Color contrast results" style="width:100%;">
+[Click to view live responsiveness](https://ui.dev/amiresponsive?url=https://pio-o-connell.github.io/Individual/index.html)  
+</details><br>
+
+
 <hr>
 <p align="right"><a href="#harmonia">Back To Top</a></p>
 
