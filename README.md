@@ -1,6 +1,6 @@
 # Harmonia
 
-![Harmonia]<img src="assets/documentation/images/Main-page.jpg" alt="Home page image" style="width:60%;">
+<img src="assets/documentation/images/Main-page.jpg" alt="Home page image" style="width:60%;">
 
 ## Introduction
 
